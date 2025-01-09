@@ -1,6 +1,6 @@
-package day2_new.q4;
+package day2_new.q4_test_trail2;
 
-abstract public class Employee
+ abstract public class Employee implements increase_percent
 {
     private String employee_name;
     private int employee_id;

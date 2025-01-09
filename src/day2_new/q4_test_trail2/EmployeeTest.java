@@ -1,4 +1,4 @@
-package day2_new.q4;
+package day2_new.q4_test_trail2;
 
 import java.util.ArrayList;
 public class EmployeeTest
@@ -14,17 +14,17 @@ public class EmployeeTest
 
         System.out.println("Weekly Salaries of Employees:");
         for (Employee employee : employees) {
-            Payment_process.get_salary(employee);
+            employee.weekly_salary();
         }
         System.out.println("---------------------------------------------------------");
         System.out.println("\nIncreasing salaried employee salaries by 10%...");
         for (Employee employee : employees) {
-            Payment_process.increased_salary(10,employee);
+            employee.increase_salary(10);
         }
-        Payment_process.increased_salary(10, employees.get(0));
+        employees.get(0).increase_salary(10);
         System.out.println("Weekly Salaries of Employees:");
         for (Employee employee : employees) {
-            Payment_process.get_salary(employee);
+            employee.weekly_salary();
         }
 
 

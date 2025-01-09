@@ -1,6 +1,6 @@
-package day2_new.q4;
+package day2_new.q4_test_trial;
 
-abstract public class Employee
+ abstract public class Employee
 {
     private String employee_name;
     private int employee_id;
@@ -10,7 +10,7 @@ abstract public class Employee
         this.employee_name=employee_name;
     }
     abstract void weekly_salary();
-    public abstract void increase_salary(double percent);
+    abstract void increase_salary(double percent);
 
 
 

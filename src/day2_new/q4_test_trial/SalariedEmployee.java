@@ -1,4 +1,4 @@
-package day2_new.q4;
+package day2_new.q4_test_trial;
 
 public class SalariedEmployee extends Employee
 {
@@ -9,11 +9,6 @@ public class SalariedEmployee extends Employee
         super(employee_name, employee_id);
         this.salary_per_week=salary_per_week;
     }
-    @Override
-    public void increase_salary(double percent)
-    {
-        salary_per_week=salary_per_week+(salary_per_week*percent/100);
-    }
 
     @Override
     void weekly_salary()
@@ -21,5 +16,9 @@ public class SalariedEmployee extends Employee
         System.out.println("The weekly salary of a salaried employee is: "+salary_per_week);
     }
 
-
+    @Override
+    void increase_salary(double percent)
+    {
+        salary_per_week=salary_per_week+(salary_per_week*percent/100);
+    }
 }

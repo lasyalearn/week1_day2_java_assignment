@@ -1,4 +1,4 @@
-package day2_new.q4;
+package day2_new.q4_test_trial;
 
 public class HourlyEmployee extends Employee
 {
@@ -11,11 +11,6 @@ public class HourlyEmployee extends Employee
         this.no_of_hours=no_of_hours;
         this.price_per_hour=price_per_hour;
     }
-    @Override
-    public void increase_salary(double percent)
-    {
-        price_per_hour=price_per_hour+(price_per_hour*percent/100);
-    }
 
     @Override
     void weekly_salary()
@@ -23,5 +18,9 @@ public class HourlyEmployee extends Employee
         System.out.println("The weekly salary of a hourly employee is: "+no_of_hours*price_per_hour);
     }
 
-
+    @Override
+    void increase_salary(double percent)
+    {
+        price_per_hour=price_per_hour+(price_per_hour*percent/100);
+    }
 }

@@ -1,4 +1,4 @@
-package day2_new.q4;
+package day2_new.q4_test_trial;
 
 public class ComissionEmployee extends Employee
 {
@@ -10,16 +10,16 @@ public class ComissionEmployee extends Employee
         this.a=a;
         this.sales_per_week=sales_per_week;
     }
-    @Override
-    public void increase_salary(double percent)
-    {
-        a=a+(a*percent/100);
-    }
+
     @Override
     void weekly_salary()
     {
         System.out.println("The weekly salary of a comission employee is: "+(a*sales_per_week/100));
     }
 
-
+    @Override
+    void increase_salary(double percent)
+    {
+        a=a+(a*percent/100);
+    }
 }
