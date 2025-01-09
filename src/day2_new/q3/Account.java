@@ -1,4 +1,4 @@
-package day2.q3;
+package day2_new.q3;
 
 public  class Account
 {

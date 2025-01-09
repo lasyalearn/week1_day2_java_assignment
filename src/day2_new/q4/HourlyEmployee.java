@@ -1,4 +1,4 @@
-package day2.q4;
+package day2_new.q4;
 
 public class HourlyEmployee extends Employee
 {

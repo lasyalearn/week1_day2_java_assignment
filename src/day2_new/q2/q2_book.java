@@ -1,4 +1,4 @@
-package day2.q2;
+package day2_new.q2;
 
 public class q2_book
 {

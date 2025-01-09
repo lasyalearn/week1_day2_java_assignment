@@ -1,4 +1,4 @@
-package q5;
+package day2_new.q5;
 
 abstract public class Emp implements Payable
 {

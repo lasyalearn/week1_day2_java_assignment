@@ -1,7 +1,5 @@
-package q5;
+package day2_new.q5;
 
-
-import day2.q4.Employee;
 
 public class SalariedEmp extends Emp
 {
